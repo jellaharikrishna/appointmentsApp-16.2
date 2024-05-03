@@ -1,0 +1,35 @@
+.list {
+  border-radius: 12px;
+  border: 1px solid #b5b7c4;
+  width: 90%;
+  margin-bottom: 15px;
+  margin-right: 20px;
+  padding: 4px;
+}
+.title-star-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+}
+.userinput-tilte {
+  font-family: Roboto;
+  font-weight: bold;
+  margin: 0;
+}
+.star-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.userinput-date {
+  font-family: Roboto;
+  color: #b5b7c4;
+  margin: 5px;
+}
+@media screen and (min-width: 768px) {
+  .list {
+    width: 30%;
+  }
+}
